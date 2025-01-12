@@ -230,7 +230,7 @@ function openModal(program) {
     if (program.participants !== undefined) {
         detailsHTML += `
             <h3>Participation</h3>
-            <p>${formatParticipants(program.participants)}</p>
+            <p>${formatParticipants(program.name)}</p>
         `;
     }
     
